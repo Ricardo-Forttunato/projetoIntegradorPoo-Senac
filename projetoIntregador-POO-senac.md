@@ -5,13 +5,13 @@
 # Projeto integrador 1º entrega
 
 *fluxograma.*
-![Imagem Fluxograma do prototipo](./public/image/img.jpg)
+![Imagem Fluxograma do prototipo](./assets/public/image/img.jpg)
 
 *Diagrama de caso de uso.*
-![Imagem Diagrama Caso de Uso](./public/image/img.jpg)
+![Imagem Diagrama Caso de Uso](./assets//public/image/img.jpg)
 
 *Diagrama de classes realizado na plataforma __Astah__.*
-![Imagem Diagrama de classes](./public/image/DiagramaDeClasses-PI.jpg)
+![Imagem Diagrama de classes](./assets/public/image/DiagramaDeClasses-PI.jpg)
 
 # Projeto integrador 2º entrega
 
