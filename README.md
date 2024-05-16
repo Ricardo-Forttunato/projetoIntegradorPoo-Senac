@@ -28,7 +28,7 @@ Representar o prototipo de um sistema de gerenciamento para um centro universit√
 <br>_Local do arquivo: assets/src/projetointegrador-diagrama de classe.asta_
 
 
-## PROTOTIPAGFGEM DA INTERFACE DO SISTEMA 
+## PROTOTIPAGEM DA INTERFACE DO SISTEMA 
 
 #### *Prototipo1*
 
