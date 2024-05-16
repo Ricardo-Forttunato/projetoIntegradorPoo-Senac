@@ -4,6 +4,16 @@
 
 # Projeto integrador 1º entrega
 
+#### Integrantes: 
+* *[Elineides Santos Silva](https://github.com/elineides)*
+* *[Joao Ricardo Fortunato Silva](https://github.com/Ricardo-Forttunato)*
+* *[José Roberto da Silva](https://github.com/pilotjrs)*
+* *[Lucas do Carmo Freitas Santos](https://github.com/Lucas-cfs)*
+* *[Luís Miguel Medeiros Raunhette](https://github.com/LuisMMRaunheitte)*
+* *[Mariana Dias Oliveira](https://github.com/Mariree003)*
+* *[Victor Macedo Pereira](https://github.com/vvctormacedo)*
+
+
 ### *fluxograma.*
 ![Imagem Fluxograma do prototipo](./assets/public/image/img.jpg)
 _Local do arquivo: assets/_
@@ -17,9 +27,8 @@ _Local do arquivo: assets/doc/Diagrama de casos UML.docx_
 _Local do arquivo: assets/src/projetointegrador-diagrama de classe.asta_
 
 
-# Projeto integrador 2º entrega
 
-## Prototipo da interface do Sistema 
+## Prototipagem da interface do Sistema 
 
 
 #### *Prototipo1*
