@@ -17,15 +17,15 @@ Representar o prototipo de um sistema de gerenciamento para um centro universit√
 
 #### FLUXOGRAMA
 ![Imagem Fluxograma do prototipo](./assets/public/image/img.jpg)
-_Local do arquivo: assets/_
+<br>_Local do arquivo: assets/_
 
 #### DIAGRAMA DE CASO DE USO
 ![Imagem Diagrama Caso de Uso](./assets/public/image/IMG-20240513-WA0001.jpg)
-_Local do arquivo: assets/doc/Diagrama de casos UML.docx_ 
+<br>_Local do arquivo: assets/doc/Diagrama de casos UML.docx_ 
 
 #### DIAGRAMA DE CLASSES
 ![Imagem Diagrama de classes](./assets/public/image/DiagramaDeClasses-PI.jpg)
-_Local do arquivo: assets/src/projetointegrador-diagrama de classe.asta_
+<br>_Local do arquivo: assets/src/projetointegrador-diagrama de classe.asta_
 
 
 ## PROTOTIPAGFGEM DA INTERFACE DO SISTEMA 
