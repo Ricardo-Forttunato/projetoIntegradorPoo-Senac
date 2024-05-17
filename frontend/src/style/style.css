@@ -138,7 +138,26 @@ footer {
     padding: 1rem 0;
     background: #333;
     color: #fff;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+    section {
+        width: 95%;
+    }
+}
+
+@media (max-width: 384px) {
+    main {
+        padding:0.2rem;
+    }
+    section {
+        width: 100%;
+        opacity: 0.8;
+    }
 }
