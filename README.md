@@ -3,7 +3,7 @@
 ## SISTEMA DE GERENCIAMENTO DO CENTRO UNIVERSITARIO XYZ.
 
 #### OBJETIVO:
-Representar o prototipo de um sistema de gerenciamento para um centro universitário utilizando ferramentas de design (nome da ferramenta)
+Representar o prototipo de um sistema de gerenciamento para um centro universitário, para isso foi criado um website com as funcionalidades de login e cadastro de alunos, docentes e fornecedores.
 
 #### Integrantes:
 * *[Elineides Santos Silva](https://github.com/elineides)*
@@ -26,31 +26,31 @@ Link para o Prototipo 1: [Prototipo 1 ](https://ricardo-forttunato.github.io/pro
 #### *Tela de login do Centro Universitario XYZ*
 
 ![Imagem do Prototipo 2](./assets/public/image/tela2.png)
-Descrição do Prototipo 2
+Tela de login do Centro Universitario XYZ
 Link para o Prototipo 1: [Prototipo 2 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/frontend/src/pages/login.html)
 
 #### *Tela de cadastro do Centro Universitario XYZ*
 
 ![Imagem do Prototipo 3](./assets/public/image/tela3.png)
-Descrição do Prototipo 3
+Tela de cadastro do Centro Universitario XYZ
 Link para o Prototipo 3: [Prototipo 3 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/frontend/src/pages/cadastro.html)
 
-#### *Opção 1 cadastro de Alunos*
+#### *Tela de cadastro opção 1 cadastro de Alunos*
 
 ![Imagem do Prototipo 3](./assets/public/image/cadastroAluno.png)
-Descrição do Prototipo 4
+Tela de cadastro seção de alunos
 Link para o Prototipo 4: [Prototipo 4 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/frontend/src/pages/cadastro.html)
 
-#### *Opção 2 cadastro de Docentes*
+#### *Tela de cadastro opção 2 cadastro de Docentes*
 
 ![Imagem do Prototipo 4](./assets/public/image/cadastroCorpoDocente.png)
-Descrição do Prototipo 5
+Tela de cadastro seção de docentes
 Link para o Prototipo 5: [Prototipo 5 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/frontend/src/pages/cadastro.html)
 
-#### *Opção 5 cadastro de Fornecedores*
+#### *Tela de cadastro opção 5 cadastro de Fornecedores*
 
 ![Imagem do Prototipo 5](./assets/public/image/cadastroFornecedor.png)
-Descrição do Prototipo 6
+Tela de cadastro seção de fornecedores
 Link para o Prototipo 6: [Prototipo 6 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/frontend/src/pages/cadastro.html)
 
 <br><br>
@@ -65,4 +65,4 @@ Link para o Prototipo 6: [Prototipo 6 ](https://ricardo-forttunato.github.io/pro
 
 #### DIAGRAMA DE CLASSES
 ![Imagem Diagrama de classes](./assets/public/image/DiagramaDeClasses-PI.jpg)
-<br>_Local do arquivo: assets/src/projetointegrador-diagrama de classe.asta_
+<br>_Local do arquivo: assets/doc/projetointegrador-diagrama de classe.asta_
