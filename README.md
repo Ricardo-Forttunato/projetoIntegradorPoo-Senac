@@ -26,7 +26,7 @@ Link para o Prototipo 1: [Prototipo 1 ](https://ricardo-forttunato.github.io/pro
 #### *Tela de login do Centro Universitario XYZ*
 
 ![Imagem do Prototipo 2](./assets/public/image/tela2.png)
-Tela de login do Centro Universitario XYZ <br>
+Tela de logon do Centro Universitario XYZ <br>
 Link para o Prototipo 2: [Prototipo 2 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/frontend/src/pages/login.html)
 
 #### *Tela de cadastro do Centro Universitario XYZ*
