@@ -22,37 +22,42 @@ Representar o prototipo de um sistema de gerenciamento para um centro universit�
 ![Imagem do Prototipo 1](./assets/public/image/tela1.png)
 Tela de apresentação da organização <br>
 Link para o Prototipo 1: [Prototipo 1 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/)
+##### Tela inicial com exibição do Menu, login, cadastro e saudação inicial.
 
 #### *Tela de login do Centro Universitario XYZ*
 
 ![Imagem do Prototipo 2](./assets/public/image/tela2.png)
 Tela de logon do Centro Universitario XYZ <br>
 Link para o Prototipo 2: [Prototipo 2 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/frontend/src/pages/login.html)
+##### Exibição de login solicitando Email e senha.
 
 #### *Tela de cadastro do Centro Universitario XYZ*
 
 ![Imagem do Prototipo 3](./assets/public/image/tela3.png)
 Tela de cadastro do Centro Universitario XYZ <br>
 Link para o Prototipo 3: [Prototipo 3 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/frontend/src/pages/cadastro.html)
+##### Pagina inicial do cadastro, é possivel selecionar o perfil a ser cadastrado, inserir nome, selecionar CPF ou CNPJ, cadastrar Email e senha
 
 #### *Tela de cadastro opção 1 cadastro de Alunos*
 
 ![Imagem do Prototipo 3](./assets/public/image/cadastroAluno.png)
 Tela de cadastro seção de alunos <br>
 Link para o Prototipo 4: [Prototipo 4 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/frontend/src/pages/cadastro.html)
+##### Pagina de exemplo de cadastro de aluno, é possivel selecionar o perfil, inserir nome, selecionar CPF e inserir o CPF, cadastrar Email e senha.
 
 #### *Tela de cadastro opção 2 cadastro de Docentes*
 
 ![Imagem do Prototipo 4](./assets/public/image/cadastroCorpoDocente.png)
 Tela de cadastro seção de docentes <br>
 Link para o Prototipo 5: [Prototipo 5 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/frontend/src/pages/cadastro.html)
+##### Pagina de exemplo de cadastro de professores, é possivel selecionar o perfil, inserir nome, selecionar CPF e inserir o CPF, cadastrar Email e senha.
 
 #### *Tela de cadastro opção 5 cadastro de Fornecedores*
 
 ![Imagem do Prototipo 5](./assets/public/image/cadastroFornecedor.png)
 Tela de cadastro seção de fornecedores <br>
 Link para o Prototipo 6: [Prototipo 6 ](https://ricardo-forttunato.github.io/projetoIntegradorPoo-Senac/frontend/src/pages/cadastro.html)
-
+##### Pagina de exemplo de cadastro de fornecedores, é possivel selecionar o perfil, inserir nome, selecionar e inserir o CNPJ, cadastrar Email e senha.
 <br><br>
 
 #### FLUXOGRAMA
