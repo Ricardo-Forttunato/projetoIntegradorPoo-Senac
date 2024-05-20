@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculdade XYZ</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Centro Universitário XYZ</h1>
+        <nav>
+            <ul>
+                <li><a href="#Comprovante">Pagamentos</a></li>
+                <li><a href="../../../index.html">Boletim</a></li>
+                <li><a href="../../../index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Comprovante">
+            <h2>Comprovantes de Pagamento</h2>
+                <label for="mes">Escolha um mês:</label>
+                <select id="mes" name="mes">
+                    <option value="1">Janeiro</option>
+                    <option value="2">Fevereiro</option>
+                    <option value="3">Março</option>
+                    <option value="4">Abril</option>
+                    <option value="5">Maio</option>
+                    <option value="6">Junho</option>
+                    <option value="7">Julho</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Setembro</option>
+                    <option value="10">Outubro</option>
+                    <option value="11">Novembro</option>
+                    <option value="12">Dezembro</option>
+                </select>
+                <button type="submit">Pesquisar</button>
+            </form>
+        </section>
+
+        <section id="Boletim">
+            <h2>Consulta de Notas</h2>
+            <form id="formNotas">
+                <label for="materia">Matéria:</label>
+                <input type="text" id="materia" name="materia" placeholder="Digite o nome da matéria">
+                <button type="submit">Pesquisar</button>
+            </form>
+            <div id="resultadoNotas">
+                
+            </div>
+            <script>
+                document.getElementById('formNotas').addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    var materia = document.getElementById('materia').value;
+                    var notas = buscarNotas(materia);
+                    var resultadoNotas = document.getElementById('resultadoNotas');
+                    resultadoNotas.innerHTML = '<h3>Notas da matéria ' + materia + ':</h3>';
+                    resultadoNotas.innerHTML += notas;
+                });
+                    function buscarNotas(materia) {
+                    
+                    return '<p>Notas da matéria ' + materia + ' não encontradas.</p>';
+                }
+            </script>
+        </section>
+
+    </main>
+</body>

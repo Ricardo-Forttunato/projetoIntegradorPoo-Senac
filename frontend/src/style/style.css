@@ -62,7 +62,7 @@ section {
     text-align: center;
 }
 
-#intro, #login, #cadastro {
+#intro, #login, #cadastro, #Comprovante, #Boletim, #InformacoesProfessor, #Fornecedor, #Colaborador, #ColaboradorTecnico{
     background: #fff;
     padding: 2rem;
     margin: 2rem 0;
