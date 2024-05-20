@@ -62,7 +62,7 @@ Link para o Prototipo 6: [Prototipo 6 ](https://ricardo-forttunato.github.io/pro
 
 #### FLUXOGRAMA
 ![Imagem Fluxograma do prototipo](./assets/public/image/fluxo.png)
-<br>_Local do arquivo: NA
+<br>_Local do arquivo: NA_
 
 #### DIAGRAMA DE CASO DE USO
 ![Imagem Diagrama Caso de Uso](./assets/public/image/IMG-20240513-WA0001.jpg)
