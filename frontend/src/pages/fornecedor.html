@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculdade XYZ</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Centro Universitário XYZ</h1>
+        <nav>
+            <ul>
+                <li><a href="#Comprovante">Comprovante</a></li>
+                <li><a href="#Fornecedor">Informações de Fornecedor</a></li>
+                <li><a href="../../../index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Comprovante">
+            <h2>Comprovantes de Pagamento</h2>
+            <form id="formPagamentos">
+                <label for="mes">Escolha um mês:</label>
+                <select id="mes" name="mes">
+                    <option value="1">Janeiro</option>
+                    <option value="2">Fevereiro</option>
+                    <option value="3">Março</option>
+                    <option value="4">Abril</option>
+                    <option value="5">Maio</option>
+                    <option value="6">Junho</option>
+                    <option value="7">Julho</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Setembro</option>
+                    <option value="10">Outubro</option>
+                    <option value="11">Novembro</option>
+                    <option value="12">Dezembro</option>
+                </select>
+                <button type="submit">Pesquisar</button>
+            </form>
+        </section>
+
+        <section id="Fornecedor">
+            <h2>Informações do Fornecedor</h2>
+            <form id="formFornecedor">
+                <label for="cnpj">CNPJ do Fornecedor:</label>
+                <input type="text" id="cnpj" name="cnpj" placeholder="Digite o CNPJ do fornecedor">
+                <button type="submit">Consultar</button>
+            </form>
+            <div id="resultadoFornecedor">
+                
+            </div>
+            <script>
+                document.getElementById('formFornecedor').addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    var cnpj = document.getElementById('cnpj').value;
+                    var informacoes = consultarFornecedor(cnpj);
+                    var resultadoFornecedor = document.getElementById('resultadoFornecedor');
+                    resultadoFornecedor.innerHTML = '<h3>Informações do Fornecedor:</h3>';
+                    resultadoFornecedor.innerHTML += informacoes;
+                });
+
+                function consultarFornecedor(cnpj) {
+                    return '<p>Informações do fornecedor com CNPJ ' + cnpj + ' não encontradas.</p>';//paodebatata
+                }
+            </script>
+        </section>
+
+    </main>
+</body>

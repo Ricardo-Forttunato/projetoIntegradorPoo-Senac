@@ -56,7 +56,13 @@
                 <label for="password">Senha:</label>
                 <input type="current-password" id="password" name="password" required>
                 
-                <button type="submit">Registrar</button>
+                <button type="submit" onclick="redirecionar()">Registrar</button>
+                <script>
+                    function redirecionar() {
+                    
+                    window.location.href = "login.html";
+    }
+                </script>
             </form>
         </section>
     </main>
@@ -67,5 +73,6 @@
     <script src="../../app.js"></script>
     <script src="../js/cadastro.js"></script>
     <script src="../../adicionaTagSelect.js"></script>
+    <script src="../js/verificar.js"></script>
 </body>
 </html>

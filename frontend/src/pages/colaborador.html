@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculdade XYZ</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Centro Universitário XYZ</h1>
+        <nav>
+            <ul>
+                <li><a href="#Comprovante">Comprovante</a></li>
+                <li><a href="#Colaborador">Gestao de Documentos</a></li>
+                <li><a href="../../../index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Comprovante">
+            <h2>Comprovantes de Pagamento</h2>
+            <form id="formPagamentos">
+                <label for="mes">Escolha um mês:</label>
+                <select id="mes" name="mes">
+                    <option value="1">Janeiro</option>
+                    <option value="2">Fevereiro</option>
+                    <option value="3">Março</option>
+                    <option value="4">Abril</option>
+                    <option value="5">Maio</option>
+                    <option value="6">Junho</option>
+                    <option value="7">Julho</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Setembro</option>
+                    <option value="10">Outubro</option>
+                    <option value="11">Novembro</option>
+                    <option value="12">Dezembro</option>
+                </select>
+                <button type="submit">Pesquisar</button>
+            </form>
+        </section>
+
+        <section id="Colaborador">
+            <h2>Informações do Colaborador</h2>
+            <form id="formColaborador">
+                <label for="GestaoDOcumentos">Gestão de Documentos</label>
+                <input type="text" id="codigo" name="codigo" placeholder="Digite o código do colaborador">
+                <button type="submit">Consultar</button>
+            </form>
+            <div id="resultadoColaborador">
+                
+            </div>
+            <script>
+                document.getElementById('formColaborador').addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    var codigo = document.getElementById('codigo').value;
+                    var informacoes = consultarColaborador(codigo);
+                    var resultadoColaborador = document.getElementById('resultadoColaborador');
+                    resultadoColaborador.innerHTML = '<h3>Informações do Colaborador:</h3>';
+                    resultadoColaborador.innerHTML += informacoes;
+                });
+
+                function consultarColaborador(codigo) {
+                    return '<p>Informações do colaborador com código ' + codigo + ' não encontradas.</p>';
+                }
+            </script>
+        </section>
+
+    </main>
+</body>
